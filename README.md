@@ -1,4 +1,5 @@
 # Restaurant Website Design
+![image](https://user-images.githubusercontent.com/100127570/232729620-ad86a9b6-7943-4dcd-91ae-25e1f558a7b5.png)
 
 This is a responsive website design for a restaurant that includes sections such as home, menus, services, contact, and footer. The website is live and can be accessed via the following link:
 ### https://sahilatahar.github.io/Restaurant-Website-Design
