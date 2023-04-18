@@ -229,6 +229,7 @@ body {
     -o-border-radius: 8px;
     font-size: 1.1rem;
     display: none;
+    z-index: 5;
 }
 
 .scroll-button:hover {
