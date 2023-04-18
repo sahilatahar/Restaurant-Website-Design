@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website Design</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--==========Navbar==========-->
+    <nav class="navbar">
+        <a href="#home">Restaurant</a>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About the restaurant</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#menu">Our menu</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-icons">
+            <div id="themeIcon"><i class="fa-solid fa-moon"></i></div>
+            <div id="hamburgIcon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+    <!--========== Scroll To Top Button ==========-->
+    <a href="#home" class="scroll-button"><i class="fa-solid fa-arrow-up"></i></a>
+    <!--========== Home ==========-->
+    <main class="main-body">
+        <section class="home" id="home">
+            <div class="home-container">
+                <h1>Restaurant</h1>
+                <h2 class="title">You are my guest everyday</h2>
+                <button class="button">Discover our menu</button>
+            </div>
+            <div class="home-container">
+                <img src="./images/home.png" alt="Dish Plate Image">
+            </div>
+        </section>
+
+        <!--========== About ==========-->
+        <section class="about" id="about">
+            <div class="about-container">
+                <img src="./images/about.jpg" alt="About Image">
+            </div>
+            <div class="about-container order-1">
+                <p class="small-para">About the restaurant</p>
+                <h2 class="title">Restaurant with Romanian and international specifics.
+                    tasty food</h2>
+                <p class="para">Once you have looked at the contents of the a la carte menu, we guarantee that any
+                    choice you make in terms of "culinary
+                    art", found in the presented categories, will pamper you extravagantly, triggering a real "symphony"
+                    of the taste buds,
+                    and the experiences you will have will be magical.</p>
+                <button class="button">See more</button>
+            </div>
+        </section>
+        <!--========== Services ==========-->
+        <section class="services" id="services">
+            <p class="small-para text-center">Take advantage of our offers!</p>
+            <h1 class="title text-center">Part of our services</h1>
+            <div class="services-container">
+                <div class="service">
+                    <img src="./images/dish.svg" alt="Dish plat image">
+                    <p class="service-title">Excellent food</p>
+                    <p class="service-subtitle">We have been providing our customers with excellent quality service for
+                        many years, with the best and most delicious
+                        food in town.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/pizza.svg" alt="Pizza image">
+                    <p class="service-title">Fast Food</p>
+                    <p class="service-subtitle">Grab a quick bite of mouthwatering burgers, pizzas, and more at our
+                        restaurant. Perfect for those on-the-go who crave
+                        delicious fast food.</p>
+                </div>
+                <div class="service">
+                    <img src="./images/truck.svg" alt="Delivery truck image">
+                    <p class="service-title">Delivery</p>
+                    <p class="service-subtitle">Enjoy your favorite meals delivered right to your doorstep, on time and
+                        piping hot, for a convenient and hassle-free
+                        dining experience.</p>
+                </div>
+            </div>
+        </section>
+        <!--========== Menu ==========-->
+        <section class="menu" id="menu">
+            <p class="small-para text-center">Take advantage of our offers!</p>
+            <h1 class="title text-center">The menu of the week</h1>
+            <div class="menu-cards">
+                <div class="menu-card">
+                    <img src="./images/plate1.png" alt="">
+                    <p class="menu-title">Assorted salad and grilled chicken meat</p>
+                    <p class="menu-details">240 grams of grilled meat and 170 grams of assorted salad</p>
+                    <p class="menu-price">120.00 INR</p>
+                    <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/plate2.png" alt="">
+                    <p class="menu-title">Fish salad</p>
+                    <p class="menu-details">79 grams of smoked salmon and 170 grams of assorted salad</p>
+                    <p class="menu-price">250.00 INR</p>
+                    <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                </div>
+                <div class="menu-card">
+                    <img src="./images/plate3.png" alt="">
+                    <p class="menu-title">Mixed salad with spinach</p>
+                    <p class="menu-details">240 grams of assorted salad and 100 grams of spinach</p>
+                    <p class="menu-price">80.00 INR</p>
+                    <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                </div>
+            </div>
+        </section>
+        <!--========== Menu ==========-->
+        <section class="contact" id="contact">
+            <div class="contact-data">
+                <p class="small-para">Let's talk</p>
+                <h1 class="title">Contact us</h1>
+                <p class="contact-details">If you would like to reserve a table in our restaurant, contact us and we
+                    will assist you quickly with our 24/7 chat
+                    service.</p>
+            </div>
+            <div class="contact-button">
+                <button class="button contact-button">Contact us now</button>
+            </div>
+        </section>
+        <!--========== Footer ==========-->
+        <section class="footer">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h3 class="footer-title">Website Food</h3>
+                    <p class="footer-link">Web Restaurant demo</p>
+                    <div class="social-icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">Services</h3>
+                    <p class="footer-link">We deliver food</p>
+                    <p class="footer-link">Prices</p>
+                    <p class="footer-link">Fast Food</p>
+                    <p class="footer-link">Reserve a table</p>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">Inform</h3>
+                    <p class="footer-link">Restaurant events</p>
+                    <p class="footer-link">Contact</p>
+                    <p class="footer-link">Privacy policy</p>
+                    <p class="footer-link">Terms and conditions</p>
+                </div>
+                <div class="footer-content">
+                    <h3 class="footer-title">Restaurant address</h3>
+                    <p class="footer-link">252/54, Yusuf Meharali Rd, Opp Narayan Dhuru Street, Abdul Rehman Street</p>
+                    <p class="footer-link">Mumbai - Maharashtra</p>
+                    <p class="footer-link">02224024413</p>
+                    <p class="footer-link">India</p>
+                </div>
+            </div>
+            <p class="footer-link text-center copyright-para">© 2023 Sahil Atahar. All right reserved</p>
+        </section>
+    </main>
+    <script src="./scroll-observer/scroll.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
